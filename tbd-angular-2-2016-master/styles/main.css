@@ -1,0 +1,28 @@
+body {
+  color: #fff;
+  padding: 20px;
+  background: #444; 
+
+}
+
+.text{
+  transition: 1000ms ease;
+
+}
+.text:hover{
+
+  transform: rotate(180deg);
+}
+
+
+.shadow {
+  display: flex;
+  transform: rotate(30deg);
+  box-shadow: 1px 1px 5px #444; }
+
+.logo {
+  max-width: 150px;
+  float: left;
+  transition: 10000ms ease; }
+  .logo:hover {
+    transform: rotate(-180deg); }
